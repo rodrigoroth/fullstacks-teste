@@ -1,5 +1,5 @@
 import IPv4Addr from "./IPv4Addr";
-import "./App.css"
+import "./App.css";
 
 function App() {
   return (
@@ -16,5 +16,19 @@ function App() {
     </div>
   );
 }
+
+  import React from "react";
+
+  function App() {
++   const foo = 123;   // ← Variável declarada e não utilizada
+
+    console.log("Hello World");  // (Exemplo de console no final da linha com ;)
+    return (
+      <div>Oi</div>
+    );
+  }
+
+  export default App;
+
 
 export default App;
