@@ -29,7 +29,7 @@ jobs:
         working-directory: ./codebase/rdicidr-0.1.0
 
       - name: Run formatter
-        run: npm run prettier
+        run: npm run prettier -- --write
         working-directory: ./codebase/rdicidr-0.1.0
 
       - name: Run tests
